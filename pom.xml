@@ -1,7 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.Josh</groupId>
-  <artifactId>Calculator_v.3</artifactId>
+  <artifactId>Calculator</artifactId>
+  <version>3.0.1</version> <!-- Change the version accordingly-->
   <packaging>jar</packaging> <!-- Specify the way you want your project to get packaged up
   								By default (if nothing is specified here) it will package it as a
   								jar file
@@ -12,7 +13,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-        <javafx.version>16</javafx.version> <!-- For Java Version 21 use javafx version 16-->
+        <javafx.version>23.0.1</javafx.version> <!-- For Java Version 21 use javafx version 21 or higher-->
   </properties>
    <build>
         <plugins>
@@ -117,5 +118,4 @@
    			<version>0.4.8</version>
 		</dependency>
      </dependencies>
-     <version>1.0.0.0</version>
 </project>
